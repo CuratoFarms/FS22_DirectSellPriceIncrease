@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="63">
+	<author>CuratoFarms</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>Direct Sell Price Increase</en>
+        <de>Direktverkaufspreiserhöhung</de>
+        <fr>Augmentation Du Prix De Vente Directe</fr>
+    </title>
+    <description>
+<en><![CDATA[Increases the direct sell price multiplier from 90% to 100%.
+When direct selling from a Production Chain you will now recieve 100% of the value of the goods rather than the base game 90%
+]]>
+</en>
+<de><![CDATA[Erhöht den direkten Verkaufspreismultiplikator von 90 % auf 100 %.
+Beim Direktverkauf aus einer Produktionskette erhältst du jetzt 100 % des Warenwertes statt 90 % des Grundspiels
+]]>
+</de>
+<fr><![CDATA[Augmente le multiplicateur de prix de vente directe de 90 % à 100 %.
+Lors de la vente directe à partir d'une chaîne de production, vous recevrez désormais 100% de la valeur des marchandises plutôt que le jeu de base 90%
+]]>
+</fr>
+    </description>
+	
+	<multiplayer supported="true" />
+	<iconFilename>modIcon.dds</iconFilename>
+	<extraSourceFiles>
+		<sourceFile filename="src/DirectSellPriceIncrease.lua" />
+	</extraSourceFiles>
+</modDesc>
